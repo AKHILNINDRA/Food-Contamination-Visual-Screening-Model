@@ -1,2 +1,168 @@
-FODD CONTAMINATION VISUAL SCREENING MODEL
+# 🍎 Fruit Freshness Classification
 
+A deep learning project for classifying fruits as **Fresh** or **Rotten** using image classification techniques.
+
+## 📌 Project Overview
+
+This project uses a Convolutional Neural Network (CNN) to classify fruit images into six categories:
+
+- Fresh Apples
+- Fresh Bananas
+- Fresh Oranges
+- Rotten Apples
+- Rotten Bananas
+- Rotten Oranges
+
+The goal is to automate fruit quality assessment, which can be useful in agriculture, food processing, inventory management, and retail industries.
+
+---
+
+## 📂 Dataset
+
+Dataset: Fruits Fresh and Rotten for Classification
+
+The dataset contains approximately 13,599 images of fruits categorized into six classes.
+
+### Dataset Structure
+
+```
+dataset/
+├── train/
+│   ├── freshapples/
+│   ├── freshbanana/
+│   ├── freshoranges/
+│   ├── rottenapples/
+│   ├── rottenbanana/
+│   └── rottenoranges/
+│
+└── test/
+    ├── freshapples/
+    ├── freshbanana/
+    ├── freshoranges/
+    ├── rottenapples/
+    ├── rottenbanana/
+    └── rottenoranges/
+```
+
+---
+
+## 🚀 Features
+
+- Image classification using Deep Learning
+- Data augmentation for improved generalization
+- Model evaluation using test data
+- Prediction on custom fruit images
+- Performance visualization using accuracy and loss curves
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
+- OpenCV
+- Scikit-learn
+
+---
+
+## 📊 Dataset Statistics
+
+| Class | Training Images | Testing Images |
+|---------|---------:|---------:|
+| Fresh Apples | 1693 | 395 |
+| Fresh Bananas | 1581 | 381 |
+| Fresh Oranges | 1466 | 388 |
+| Rotten Apples | 2342 | 601 |
+| Rotten Bananas | 2224 | 530 |
+| Rotten Oranges | 1595 | 403 |
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/fruit-freshness-classification.git
+cd fruit-freshness-classification
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Training the Model
+
+```bash
+python train.py
+```
+
+---
+
+## 🔍 Making Predictions
+
+```bash
+python predict.py --image path/to/image.jpg
+```
+
+Example Output:
+
+```text
+Prediction: Fresh Apple
+Confidence: 98.4%
+```
+
+---
+
+## 📈 Results
+
+The trained CNN model achieves high classification accuracy on the test dataset and effectively distinguishes between fresh and rotten fruits.
+
+Evaluation metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+---
+
+## 🎯 Future Improvements
+
+- Deploy as a web application using Flask or Streamlit
+- Mobile application integration
+- Real-time fruit freshness detection
+- Support for additional fruit categories
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Submit a Pull Request
+
+---
+
+## 📜 License
+
+This project is intended for educational and research purposes.
+
+---
+
+## 🙏 Acknowledgements
+
+- Kaggle Dataset: Fruits Fresh and Rotten for Classification
+- TensorFlow & Keras Community
+- Open Source Contributors
