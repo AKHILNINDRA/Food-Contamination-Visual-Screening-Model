@@ -58,6 +58,18 @@ dataset/
 
 ---
 
+## MODELS USED
+
+A CNN model built using:
+
+- Conv2D
+- MaxPooling2D
+- Dense Layers
+- Dropout
+
+MobileNetV2
+- Transfer learning model pretrained on ImageNet.
+
 ## Technologies Used
 
 - Python
