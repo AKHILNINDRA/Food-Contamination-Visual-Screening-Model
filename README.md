@@ -1,8 +1,8 @@
-# 🍎 Fruit Freshness Classification
+# Fruit Freshness Classification
 
 A deep learning project for classifying fruits as **Fresh** or **Rotten** using image classification techniques.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project uses a Convolutional Neural Network (CNN) to classify fruit images into six categories:
 
@@ -17,7 +17,7 @@ The goal is to automate fruit quality assessment, which can be useful in agricul
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Dataset: Fruits Fresh and Rotten for Classification
 
@@ -46,7 +46,7 @@ dataset/
 
 ---
 
-## 🚀 Features
+## Features
 
 - Image classification using Deep Learning
 - Data augmentation for improved generalization
@@ -56,7 +56,7 @@ dataset/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -68,7 +68,7 @@ dataset/
 
 ---
 
-## 📊 Dataset Statistics
+## Dataset Statistics
 
 | Class | Training Images | Testing Images |
 |---------|---------:|---------:|
@@ -81,24 +81,7 @@ dataset/
 
 ---
 
-## ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/fruit-freshness-classification.git
-cd fruit-freshness-classification
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Training the Model
+## Training the Model
 
 ```bash
 python train.py
@@ -106,7 +89,7 @@ python train.py
 
 ---
 
-## 🔍 Making Predictions
+## Making Predictions
 
 ```bash
 python predict.py --image path/to/image.jpg
@@ -121,7 +104,7 @@ Confidence: 98.4%
 
 ---
 
-## 📈 Results
+## Results
 
 The trained CNN model achieves high classification accuracy on the test dataset and effectively distinguishes between fresh and rotten fruits.
 
@@ -135,33 +118,23 @@ Evaluation metrics:
 
 ---
 
-## 🎯 Future Improvements
+## Future Improvements
 
 - Deploy as a web application using Flask or Streamlit
 - Mobile application integration
 - Real-time fruit freshness detection
 - Support for additional fruit categories
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
 
 ---
 
-## 📜 License
+## License
 
 This project is intended for educational and research purposes.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - Kaggle Dataset: Fruits Fresh and Rotten for Classification
 - TensorFlow & Keras Community
