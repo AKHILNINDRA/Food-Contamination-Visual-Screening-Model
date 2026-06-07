@@ -23,6 +23,8 @@ Dataset: Fruits Fresh and Rotten for Classification
 
 The dataset contains approximately 13,599 images of fruits categorized into six classes.
 
+LINK:https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
+
 ### Dataset Structure
 
 ```
