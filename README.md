@@ -83,29 +83,6 @@ dataset/
 
 ---
 
-## Training the Model
-
-```bash
-python train.py
-```
-
----
-
-## Making Predictions
-
-```bash
-python predict.py --image path/to/image.jpg
-```
-
-Example Output:
-
-```text
-Prediction: Fresh Apple
-Confidence: 98.4%
-```
-
----
-
 ## Results
 
 The trained CNN model achieves high classification accuracy on the test dataset and effectively distinguishes between fresh and rotten fruits.
